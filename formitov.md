@@ -1,14 +1,14 @@
-# 16.10
-## Output
+## 16.10
+### Output
 A_#_F_L_results.csv
 
-## Fixating csv
+### Fixating csv
 ruby mp.rb csv1 csv2
 
-## Asynchronic execution?
+### Asynchronic execution?
 
-# 23.10
-## To sum up...
+## 23.10
+### To sum up...
 1. Ruby & rails
    rvm, byndler, gems
 2. Heroku
