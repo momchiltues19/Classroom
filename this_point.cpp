@@ -34,7 +34,7 @@ public:
 	{
 		return cy_;
 	}
-	Point& set_x(double x)
+	Point& set_x(double x) //returns Point& so that we can set x and y on one line(we make it so p.set_x is also a Point)
 	{
 		x_ = x;
 		return *this;
@@ -82,7 +82,7 @@ int main()
 	rp.set_x(1);
 	rp.get_x(); //both work	
 	
-	p2.set_y(2.1).set_x(3.2);
+	p2.set_y(2.1).set_x(3.2); //we made set_x and set_y return Point&
 	cout << "p2 is " << endl; p2.print();
 	p1.set_x(3.0).set_y(3.0);	
 	cout << "p1 is " << endl; p1.print();	
