@@ -128,7 +128,10 @@ int main()
 	cout << "p3 is " << p3;
 
 	cin >> p1 >> p2;
-
+	if(!cin.good())
+	{
+		cout << "fail" << endl;
+	}
 	cout << "After actions: " << endl;
 	cout << "p0 is " << p0;
 	cout << "p1 is " << p1;
