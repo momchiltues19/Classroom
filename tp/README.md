@@ -1,11 +1,10 @@
 # Software Engineering
+
 ## 16.10
 ### Output
 A_#_F_L_results.csv
-
 ### Fixating csv
 ruby mp.rb csv1 csv2
-
 ### Asynchronic execution?
 
 ## 23.10
@@ -33,7 +32,6 @@ ruby mp.rb csv1 csv2
    certificate authority - makes sure that what we recieve came from where we think it did
       server -> CA1 -> root authority (you can be your own RA, but who will trust you... :'( )
 BONUS. DIY public/private ciphering (for hashes)
-
 ### Task 1
 1. Make Heroku app
 2. Have text space and submit button (view)
@@ -44,3 +42,17 @@ BONUS. DIY public/private ciphering (for hashes)
 m = Message.new; m.save -> ActiveRecord -> ORM -> PostGreSQL
 BONUS. random generated id - how? (not rand; short URL)
        What does Youtube do? 
+
+## 30.10
+### Checking homework for today
+
+### For next time aka Task2
+Task 1. /new -> Form: text area and submit button -> Post -> create -> html
+Task 2. make is so app can work with **curl**
+   notes/api -> POST curl -> **JSON** with this in it *{ "key":"value"; "key":[i] ... }*
+   POST curl with JSON -> *{ "message":"..." }* ; *{ "url":"..."}*
+Task 3. XML *<message> ... </message>* ; *<url> ... </url>*
+        respond_to(guide)
+          format.html
+          format.json
+What to commit? Commit in the same github repo and deploy the same heroku app
