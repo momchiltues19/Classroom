@@ -1,4 +1,5 @@
 # 30.10
-## Write
-## Homework
+## In class
+### write.c & cat.c
+## For homework
 program with read, write and open 
