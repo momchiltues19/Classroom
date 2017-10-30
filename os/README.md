@@ -1,5 +1,6 @@
 # 30.10
 ## In class
-### write.c & cat.c
+write.c & cat.c
 ## For homework
-program with read, write and open 
+program with read, write and open
+hw is in moodle
