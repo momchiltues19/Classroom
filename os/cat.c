@@ -5,13 +5,13 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-int main()
+int main(int argc, char * argv[])
 {
 	ssize_t wresult = 0;
 	ssize_t rresult = 0;	
 	char buff[100];
 
-	int fd = open("cat.c", O_RDONLY);
+	int fd = open(argv[1], O_RDONLY);
 	if(fd < 0)
 	{
 		perror("open");
