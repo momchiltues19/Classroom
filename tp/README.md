@@ -47,12 +47,12 @@ BONUS. random generated id - how? (not rand; short URL)
 ### Checking homework for today
 
 ### For next time aka Task2
-Task 1. /new -> Form: text area and submit button -> Post -> create -> html
-Task 2. make is so app can work with **curl**
-   notes/api -> POST curl -> **JSON** with this in it *{ "key":"value"; "key":[i] ... }*
-   POST curl with JSON -> *{ "message":"..." }* ; *{ "url":"..."}*
-Task 3. XML *<message> ... </message>* ; *<url> ... </url>*
-        respond_to(guide)
-          format.html
-          format.json
-What to commit? Commit in the same github repo and deploy the same heroku app
+Task 1. /new -> Form: text area and submit button -> Post -> create -> html <br>
+Task 2. make is so app can work with **curl**<br>
+   notes/api -> POST curl -> **JSON** with this in it *{ "key":"value"; "key":[i] ... }*<br>
+   POST curl with JSON -> *{ "message":"..." }* ; *{ "url":"..."}*<br>
+Task 3. XML *<message> ... </message>* ; *<url> ... </url>*<br>
+        respond_to(guide)<br>
+          format.html<br>
+          format.json<br>
+What to commit? Commit in the same github repo and deploy the same heroku app<br>
