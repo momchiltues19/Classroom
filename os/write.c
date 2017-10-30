@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
+#include <sys/syscall.h>
 
 int main()
 {
@@ -10,14 +11,14 @@ int main()
 	ssize_t wresult = 0;
 
 	while(wresult != len)
-	{	
-		ssize_t res;		
-		res = write(STDOUT_FILENO, s + wresult, len - wresult);
-		if (res < 0)
+	{		
+		wresult = syscall( SYS_write, STDOUT_FILENO, s + written, len - written);
+		if(wresult < 0)
 		{
-			return -1;
+			perror ("write");
+			return 1;		
 		}
-		wresult = res;
+		written += wresult;
 	}	
 	return 0;
 }
