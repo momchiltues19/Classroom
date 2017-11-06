@@ -52,12 +52,36 @@ BONUS. random generated id - how? (not rand; short URL)
    notes/api -> POST curl -> **JSON** with this in it *{ "key":"value"; "key":[i] ... }*
    POST curl with JSON -> *{ "message":"..." }* ; *{ "url":"..."}*
 3. XML *<message> ... </message>* ; *<url> ... </url>*
-        respond_to(guide)<br>
-          format.html<br>
-          format.json<br>
-What to commit? Commit in the same github repo and deploy the same heroku app<br>
+        respond_to(guide)
+          format.html
+          format.json
+What to commit? Commit in the same github repo and deploy the same heroku app
 
 ## 06.11
 ### Checking homework 
 * Further explanation on the process of cheking the first hw
-* Checking the second hw + suspense 
+* Checking the second hw  
+   * Talking about UTF-8 and ASCII
+   * Checking Martin T...
+      * we can go back in time
+   * Checked Martin T, checking Kari...
+      * rails parses JSON automatically
+      * clearing kesh is hard, so is naming methods/variables
+      * CamelCase 
+      * non_camel_case 
+      * in JAVA
+         * if method returns - G  getAge
+         * if method takes - S setAge
+         * if method bools - I isAge
+      * in Ruby
+         * if bool - age?
+      * using nokogiri - it is a parser 
+         * Nokogiri::XML.fragment(request.body.read).content + checking if the content is messages and not sth else
+   * Checked Kari, how to inprove it
+      * ctr + d in sublime is THE BEST - helps with redundancy 
+      * @message = Mesasge.create(:message=>text), with text being the thing in @message.text
+      * respond_to 
+### Why does sharing code cause bugs
+   * Many reasons, all of them take some %
+      * 90% - redundancy
+### HW for Wednesday is no no hae~, KM will check and tell us if we suck
