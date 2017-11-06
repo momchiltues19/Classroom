@@ -6,4 +6,4 @@ write.c & cat.c
 program with read, write and open <br>
 hw is in moodle
 ## 6.11 
-### FIRST BIG HW 
+### FIRST BIG HW - tail
