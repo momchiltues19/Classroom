@@ -7,3 +7,7 @@ program with read, write and open <br>
 hw is in moodle
 ## 6.11 
 ### FIRST BIG HW - tail
+## 13.11
+* __LAST__ LECTURE
+* ALSO BIG TEST aka __TERM TEST__
+ 
