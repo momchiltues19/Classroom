@@ -81,7 +81,29 @@ What to commit? Commit in the same github repo and deploy the same heroku app
       * ctr + d in sublime is THE BEST - helps with redundancy 
       * @message = Mesasge.create(:message=>text), with text being the thing in @message.text
       * respond_to 
-### Why does sharing code cause bugs
+### Why does sharing code cause bugs - |__RANDOM__| 
    * Many reasons, all of them take some %
       * 90% - redundancy
 ### HW for Wednesday is no no hae~, KM will check and tell us if we suck
+
+## 13.11
+### New teacher (kinda, more like a one- or two-time thing)
+* TUES
+### IPC Intro - (pipe.c, named_pipe.c)
+* WIN32_API
+* Pipe - you input sth & you output same th
+* man 2 pipe 
+* Inter class comunication == fork
+* DRAWING TIME: 	
+		  P2
+		  |
+	P1----W==========R----P4
+	      |
+		  P3
+	__BUT__
+	P1---W=========R---P1
+	*then we fork*
+	P2\               /P2
+	   |>--W=======R<|
+	P1/               \P1
+* mkfifo

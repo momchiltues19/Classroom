@@ -15,7 +15,7 @@ int main()
 		//sleep(10);
 		printf("sos child %d\n", pid);
 		sleep(1);
-		execlp("ls","ls",NULL);
+		execlp("ls","ls",NULL); //hogs the process and stops the previous program
 	}	
 	else 
 	{	
