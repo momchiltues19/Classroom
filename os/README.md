@@ -10,4 +10,4 @@ hw is in moodle
 ## 13.11
 * __LAST__ LECTURE
 * ALSO BIG TEST aka __TERM TEST__
- 
+* '\0' - $ in -A mode  
