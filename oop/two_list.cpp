@@ -1,4 +1,4 @@
-//TODO copy-constructor, push front, pop front, operator za prisvoyavane
+//TODO: copy-constructor, push front, pop front, operator za prisvoyavane
 #include <iostream>
 using namespace std;
 
@@ -24,8 +24,8 @@ public:
 	{
 		head_ -> next_ = head_;
 		head_ -> prev_ = head_;
-	}
-	
+	}	
+
 	~List()
 	{
 		while(!empty())
@@ -51,6 +51,13 @@ public:
 			current_ = current_ -> next_;
 			return *this;
 		}
+		
+		iterator operator++(int)
+		{
+			iterator res(list_, current_);			
+			current_ = current_ -> next_;
+			return res;
+		}	
 
 		int operator*()
 		{
@@ -124,23 +131,78 @@ public:
 		}
 		return head_ -> prev_ -> data_;
 	}
+
+	iterator insert(iterator pos, int val)
+	{
+		if(pos.list_ != this)
+		{
+			throw ListError();
+		}
+
+		Node* current = pos.current_;
+		Node* prev = current -> prev_;
+		Node* ptr = new Node(val);
+
+		prev -> next_ = ptr;
+		ptr -> prev_ = prev;
+
+		ptr -> next_ = current;
+		current -> prev_ = ptr; 
+		
+		return iterator(this, ptr);
+	}
+
+	iterator erase(iterator it)
+	{
+		Node* uno = it.current_ -> next_;
+		Node* dos = it.current_ -> prev_;
+		Node* help = uno;
+		uno -> prev_ = dos;
+		dos -> next_ = help;
+		return iterator(this,uno);
+	}
+
+	class reverse_iterator
+	{
+		friend class List;
+		
+		List* list_;
+		Node* current_;
+		
+		reverse_iterator(List* list,Node* cur)
+		: list_(list), current_(cur) {}
+	public:
+		int operator*()
+		{
+			return current_ -> data_;
+		}
+	};
+	reverse_iterator rbegin()
+	{
+		return reverse_iterator(this, head_); 
+	}
+	reverse_iterator rend()
+	{
+		return reverse_iterator(this, head_->next_);
+	}
+	//TODO: rbegin(); rend();
 };
 
 int main()
 {
 	List myl;
 	
-	cout << myl.empty() << endl;
-	myl.push_back(1);
-	cout << myl.back() << " " << myl.front() << endl;
+	
+	myl.push_back(3);
 	myl.push_back(2);
-	cout << myl.back() << " " << myl.front() << endl;	
-	myl.pop_back();	
-	cout << myl.back() << " " << myl.front() << endl;
-
-	for(List::iterator it = myl.begin(); it!=myl.end(); ++it)
-	{	
-		cout <<*it<< endl;
+	myl.push_back(5);
+		
+	for(List::iterator it = myl.begin(); it != myl.end(); it++)
+	{
+		cout << *myl.erase(it) << endl;
 	}
+	
+	//cout << *rit << endl;
+		
 	return 0;
 }

@@ -2,7 +2,6 @@
 
 ## 7.11
 * New teacher
-
 ### Dynamic memory - (dynamic_stack.cpp)
 * FIFO - First in First out
 * LIFO - Last in First out
@@ -19,5 +18,9 @@
 
 ## 14.11
 * Hw questions
-### Double-noded(?) list and DIY iterator
+### Double-noded(?) list and DIY iterator - (two_list.cpp)
+
+## 16.11
+* Hw questions
+### Post increment operator - (two_list.cpp)
 
