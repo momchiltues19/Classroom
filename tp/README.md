@@ -94,16 +94,16 @@ What to commit? Commit in the same github repo and deploy the same heroku app
 * Pipe - you input sth & you output same th
 * man 2 pipe 
 * Inter class comunication == fork
-* DRAWING TIME: 	
-		  P2
-		  |
-	P1----W==========R----P4
-	      |
-		  P3
-	__BUT__
-	P1---W=========R---P1
-	*then we fork*
-	P2\               /P2
-	   |>--W=======R<|
-	P1/               \P1
+* DRAWING TIME:            
+        P2                 
+        |                  
+  P1----W==========R----P4 
+        |                  
+        P3                 
+  __BUT__                  
+  P1---W=========R---P1    
+  __*then we fork*__       
+  P2\               /P2    
+     |>--W=======R<|       
+  P1/               \P1    
 * mkfifo
