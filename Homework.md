@@ -9,7 +9,7 @@
 ## Week 20.11 - 26.11
 ##### For MONDAY (20.11)
 * OS - Tail
-* ~~HIS - NTH ~~
+* ~~HIS - NTH~~
 * ~~TP - NTH~~
 ### For TUESDAY (21.11)
 * PPS - Nth
@@ -53,3 +53,8 @@
 ##### For FRIDAY (8.11)
 ##### For SATURDAY (9.11)
 ##### For SUNDAY (10.11)
+
+## Week 11.12 - 17.12
+
+## Week 18.12 - 24.12
+### For MONDAY (18.12) - OS TERM TEST
