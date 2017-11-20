@@ -10,7 +10,7 @@
 ### For TUESDAY (21.11)
 * PPS - Nth
 * BEL - Interpratations
-* OOP - The not necessary
+* OOP - The not necessary thing for last time 
 ### For WEDNESDAY (22.11)
 * KArch - Nth
 * Philos - Study
