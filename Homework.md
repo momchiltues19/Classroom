@@ -7,10 +7,6 @@
 * Tail (not finished)
 
 ## Week 20.11 - 26.11
-##### For MONDAY (20.11)
-* OS - Tail
-* ~~HIS - NTH~~
-* ~~TP - NTH~~
 ### For TUESDAY (21.11)
 * PPS - Nth
 * BEL - Interpratations
@@ -37,6 +33,7 @@
 
 ## Week 27.11 - 3.12
 ##### For MONDAY (27.11)
+* HIS - Conspect module 9
 ##### For TUESDAY (28.11)
 ##### For WEDNESDAY (29.11)
 ##### For THURSDAY (30.11)
