@@ -159,6 +159,7 @@ public:
 		Node* help = uno;
 		uno -> prev_ = dos;
 		dos -> next_ = help;
+		delete it.current_;
 		return iterator(this,uno);
 	}
 
