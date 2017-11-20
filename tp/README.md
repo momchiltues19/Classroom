@@ -84,26 +84,33 @@ What to commit? Commit in the same github repo and deploy the same heroku app
 ### Why does sharing code cause bugs - |__RANDOM__| 
    * Many reasons, all of them take some %
       * 90% - redundancy
+   * Conclusion - don't be redundant 0_0
 ### HW for Wednesday is no no hae~, KM will check and tell us if we suck
 
 ## 13.11
-### New teacher (kinda, more like a one- or two-time thing)
+### New teacher (kinda, more like a one- or two-time thing (apperantly not, it's a every-monday thing, I guess))
 * TUES
 ### IPC Intro - (pipe.c, named_pipe.c)
 * WIN32_API
-* Pipe - you input sth & you output same th
+* Pipe - you input sth & you output same th (also known as fifo)
 * man 2 pipe 
 * Inter class comunication == fork
 * DRAWING TIME:            
-        P2                 
-        |                  
-  P1----W==========R----P4 
-        |                  
-        P3                 
-  __BUT__                  
-  P1---W=========R---P1    
-  __*then we fork*__       
-  P2\               /P2    
-     |>--W=======R<|       
-  P1/               \P1    
+1.       P2                 
+2.       |                  
+3. P1----W==========R----P4 
+4.       |                  
+5.       P3                 
+6. __BUT__                 
+7. P1---W=========R---P1    
+8. __*then we fork*__       
+9. P2\                /P2    
+10.    |>--W=======R<|       
+11. P1/               \P1    
 * mkfifo
+
+## 20.11
+* We still have no idea if we suck or not, how sad...
+### Memory sharing (no sockets, wv they are)
+* 
+### Next time we finish this up and then have some BONUS - talking about random stuff
