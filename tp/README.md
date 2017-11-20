@@ -115,5 +115,5 @@ P1/                 \P1
 * presentations will be posted stim, swh; Magi is to recieve them
 * man shm_overview
 * volatile - know, that this said mem can be changed, even when you don't think it can be, so beware of making temporary memory holders
-* continue - break and act as if you weren't in the {} thingy (I guess heap? maybe?) you were in [https://www.tutorialspoint.com/cprogramming/c_continue_statement.htm]
+* continue - break and act as if you weren't in the {} thingy (I guess heap? maybe?) you were in [more here](https://www.tutorialspoint.com/cprogramming/c_continue_statement.htm) 
 ### Next time we finish this up and then have some BONUS - talking about random stuff
