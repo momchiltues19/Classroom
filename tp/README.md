@@ -60,7 +60,7 @@ What to commit? Commit in the same github repo and deploy the same heroku app
 ## 06.11
 ### Checking homework 
 * Further explanation on the process of cheking the first hw
-* Checking the second hw  
+* Checking the second hw
    * Talking about UTF-8 and ASCII
    * Checking Martin T...
       * we can go back in time
@@ -77,7 +77,7 @@ What to commit? Commit in the same github repo and deploy the same heroku app
          * if bool - age?
       * using nokogiri - it is a parser 
          * Nokogiri::XML.fragment(request.body.read).content + checking if the content is messages and not sth else
-   * Checked Kari, how to inprove it
+   * Checked Kari, how to improve it
       * ctr + d in sublime is THE BEST - helps with redundancy 
       * @message = Mesasge.create(:message=>text), with text being the thing in @message.text
       * respond_to 
@@ -85,7 +85,7 @@ What to commit? Commit in the same github repo and deploy the same heroku app
    * Many reasons, all of them take some %
       * 90% - redundancy
    * Conclusion - don't be redundant 0_0
-### HW for Wednesday is no no hae~, KM will check and tell us if we suck
+### HW for Wednesday is no no hae~, Kiko will check and tell us if we suck
 
 ## 13.11
 ### New teacher (kinda, more like a one- or two-time thing (apperantly not, it's a every-monday thing, I guess))
@@ -95,22 +95,25 @@ What to commit? Commit in the same github repo and deploy the same heroku app
 * Pipe - you input sth & you output same th (also known as fifo)
 * man 2 pipe 
 * Inter class comunication == fork
-* DRAWING TIME:            
-1.       P2                 
-2.       |                  
-3. P1----W==========R----P4 
-4.       |                  
-5.       P3                 
-6. __BUT__                 
-7. P1---W=========R---P1    
-8. __*then we fork*__       
-9. P2\                /P2    
-10.    |>--W=======R<|       
-11. P1/               \P1    
+* DRAWING TIME:
+      P2
+      |
+P1----W==========R----P4 /
+      |
+      P3
+__BUT__
+P1---W=========R---P1
+__*then we fork*__
+P2\                 /P2
+   |>--W=======R--<|
+P1/                 \P1
 * mkfifo
 
 ## 20.11
 * We still have no idea if we suck or not, how sad...
 ### Memory sharing (no sockets, wv they are)
-* 
+* presentations will be posted stim, swh; Magi is to recieve them
+* man shm_overview
+* volatile - know, that this said mem can be changed, even when you don't think it can be, so beware of making temporary memory holders
+* continue - break and act as if you weren't in the {} thingy (I guess heap? maybe?) you were in [https://www.tutorialspoint.com/cprogramming/c_continue_statement.htm]
 ### Next time we finish this up and then have some BONUS - talking about random stuff
