@@ -35,7 +35,7 @@
 ## For SUNDAY (26.11)
 * OS - Multifork
 
-### Week 27.11 - 3.12
+# Week 27.11 - 3.12
 #### For MONDAY (27.11)
 #### For TUESDAY (28.11)
 #### For WEDNESDAY (29.11)
@@ -44,7 +44,7 @@
 #### For SATURDAY (2.11)
 #### For SUNDAY (3.11)
 
-### Week 4.12 - 10.12
+# Week 4.12 - 10.12
 #### For MONDAY (4.11)
 ## For TUESDAY (5.11)
 * PPS - Task 3 from [here](https://github.com/NoHomey/PPS-ELSYS-2017-softwares/blob/master/lectures/vectors_and_matrices/lecture.pdf)
