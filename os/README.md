@@ -18,8 +18,8 @@
 ## 20.11
 * finally an ok grade on the tests (44.44% = irony)
 * continue with fork
-* 4.12 - *stuffs*
-* 11.12 - *more stuffs*
-* 18.12 - *BIG TEST aka __TERM TEST__*
+* __4.12__ - *stuffs*
+* __11.12__ - *more stuffs*
+* __18.12__ - *BIG TEST aka __TERM TEST__*
 * echo $PATH
 ### exec familly
