@@ -24,3 +24,6 @@
 * Hw questions
 ### Post increment operator - (two_list.cpp)
 
+## 21.11
+*
+###  
