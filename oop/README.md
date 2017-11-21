@@ -8,18 +8,18 @@
 * static stack vs dynamic stack
 * in C - malloc & free
 * in C++ - **new** & **delete**
-* **new** Foo[10] requires **delete** [] arr1
-___
+* `new Foo[10]` requires `delete [] arr1`
+
 ## 9.11 
 * Discussion on the new teacher
 * Continuing from where we left off
 ### Dynamic memory - (copy_constructor.cpp)
 * Copying constructor
-___
+
 ## 14.11
 * Hw questions
 ### Double-noded(?) list and DIY iterator - (two_list.cpp)
-___
+
 ## 16.11
 * Hw questions
 * `char* pchar;` - pointer to char
@@ -27,7 +27,7 @@ ___
 * `char* const pcharc;` - const pointer to char <- **this** falls here
 * `const char *const cpcharc;` - const pointer to const char
 ### Post increment operator - (two_list.cpp)
-___
+
 ## 21.11
 * `const Point *const func() const {}` 
 ### 
