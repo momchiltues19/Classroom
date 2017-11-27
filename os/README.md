@@ -27,4 +27,4 @@
 
 ## 27.11
 ### Pipes
-### SECOND BIG HOMEWORK - ([bash/shell](lubo.elsys-bg.org/wp-content/uploads/2015/10/HW02-shell.pdf))
+### SECOND BIG HOMEWORK - ([shell](http://lubo.elsys-bg.org/wp-content/uploads/2015/10/HW02-shell.pdf))
