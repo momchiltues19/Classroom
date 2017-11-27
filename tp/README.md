@@ -61,30 +61,30 @@ What to commit? Commit in the same github repo and deploy the same heroku app
 ### Checking homework 
 * Further explanation on the process of cheking the first hw
 * Checking the second hw
-   * Talking about UTF-8 and ASCII
-   * Checking Martin T...
-      * we can go back in time
-   * Checked Martin T, checking Kari...
-      * rails parses JSON automatically
-      * clearing kesh is hard, so is naming methods/variables
-      * CamelCase 
-      * non_camel_case 
-      * in JAVA
-         * if method returns - G  getAge
-         * if method takes - S setAge
-         * if method bools - I isAge
-      * in Ruby
-         * if bool - age?
-      * using nokogiri - it is a parser 
-         * Nokogiri::XML.fragment(request.body.read).content + checking if the content is messages and not sth else
-   * Checked Kari, how to improve it
-      * ctr + d in sublime is THE BEST - helps with redundancy 
-      * @message = Mesasge.create(:message=>text), with text being the thing in @message.text
-      * respond_to 
+	* Talking about UTF-8 and ASCII
+	* Checking Martin T...
+		* we can go back in time
+	* Checked Martin T, checking Kari...
+		* rails parses JSON automatically
+		* clearing kesh is hard, so is naming methods/variables
+		* CamelCase 
+		* non_camel_case 
+		* in JAVA
+			* if method returns - G  getAge
+			* if method takes - S setAge
+			* if method bools - I isAge
+		* in Ruby
+			* if bool - age?
+		* using nokogiri - it is a parser 
+			* Nokogiri::XML.fragment(request.body.read).content + checking if the content is messages and not sth else
+	* Checked Kari, how to improve it
+		* ctr + d in sublime is THE BEST - helps with redundancy 
+		* @message = Mesasge.create(:message=>text), with text being the thing in @message.text
+		* respond_to 
 ### Why does sharing code cause bugs - |__RANDOM__| 
-   * Many reasons, all of them take some %
-      * 90% - redundancy
-   * Conclusion - don't be redundant 0_0
+* Many reasons, all of them take some %
+	* 90% - redundancy
+* Conclusion - don't be redundant 0_0
 ### HW for Wednesday is no no hae~, Kiko will check and tell us if we suck
 
 ## 13.11
@@ -96,17 +96,19 @@ What to commit? Commit in the same github repo and deploy the same heroku app
 * man 2 pipe 
 * Inter class comunication == fork
 * DRAWING TIME:
-      P2
-      |
+			P2
+			|
 P1----W==========R----P4 /
-      |
-      P3
+			|
+			P3
 __BUT__
 P1---W=========R---P1
 __*then we fork*__
-P2\                 /P2
-   |>--W=======R--<|
-P1/                 \P1
+P2									P2
+	\									/
+	 |>--W=======R--<|
+	/									\
+P1									P1
 * mkfifo
 
 ## 20.11
@@ -117,3 +119,12 @@ P1/                 \P1
 * volatile - know, that this said mem can be changed, even when you don't think it can be, so beware of making temporary memory holders
 * continue - break and act as if you weren't in the {} thingy (I guess heap? maybe?) you were in ([more here](https://www.tutorialspoint.com/cprogramming/c_continue_statement.htm))
 ### Next time we finish this up and then have some BONUS - talking about random stuff
+
+## 27.11
+* Forgot to save, we don't suck, bla bla bla
+* HWs, they have grades 
+	* Until Monday, maybe Wednesday if Kiko allows
+* grep manual: 
+	* -v - you see all the thing that DON'T have what you specified
+	* -w - you see only the thing specified as a word, not as a part of one
+	* -c - counts the number of lines

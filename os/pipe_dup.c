@@ -1,5 +1,6 @@
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <sys/wait.h>
 #include <fcntl.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -17,12 +18,12 @@ int main()
 		close(pipefd[1]);
 		while(read(pipefd[0], &ch, 1) > 0)
 			write(STDOUT_FILENO, &ch, 1);
+		wait(NULL);
 	}
 	else
 	{
 		close(pipefd[0]);
 		dup2(pipefd[1], STDOUT_FILENO);
-		printf("Hi again\n");
-		printf("BYeee\n");
+		execlp("ls", "ls", NULL);
 	}
 }
