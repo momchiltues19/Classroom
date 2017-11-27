@@ -23,3 +23,8 @@
 * __18.12__ - *BIG TEST aka __TERM TEST__*
 * echo $PATH
 ### exec familly
+* multifork
+
+## 27.11
+### Pipes
+### SECOND BIG HOMEWORK - ([bash/shell](lubo.elsys-bg.org/wp-content/uploads/2015/10/HW02-shell.pdf))
