@@ -32,3 +32,8 @@
 * `const Point *const func() const {}` - function that returns a constant pointer to a constant object  
 ### Vectors - ([2-vector.md](https://github.com/elsys/oop2017-2018/blob/master/practice/2-vector.md))
 
+## 28.11
+*  inheritance part two, you hace see part one in stephan's classroom repo
+
+
+
