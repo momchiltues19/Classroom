@@ -98,7 +98,7 @@ What to commit? Commit in the same github repo and deploy the same heroku app
 * DRAWING TIME:
 			P2
 			|
-P1----W==========R----P4 /
+P1----W==========R----P4
 			|
 			P3
 __BUT__
@@ -125,6 +125,20 @@ P1									P1
 * HWs, they have grades 
 	* Until Monday, maybe Wednesday if Kiko allows
 * grep manual: 
-	* -v - you see all the thing that DON'T have what you specified
-	* -w - you see only the thing specified as a word, not as a part of one
+	* -v - you see all the things that DON'T have what you specified
+	* -w - you see only the thing specified as a word, not as part of one
 	* -c - counts the number of lines
+
+## 29.11
+* More homework
+### Homework 
+* You are given a class - RomeConverter
+	* to_rome - takes int, makes it a roman numerals _6 -> VI_ 
+	* to_dec - takes roman numerals, makes it int _IX -> 9_
+* RSpec
+	* ~=~ 15 tests 
+### In Class
+* Install Rspec
+* Make ruby file - Caesar
+* Test with RSpec
+* Make Caesar work (there is a gem)
