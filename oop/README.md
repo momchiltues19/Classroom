@@ -33,7 +33,8 @@
 ### Vectors - ([2-vector.md](https://github.com/elsys/oop2017-2018/blob/master/practice/2-vector.md))
 
 ## 28.11
-*  inheritance part two, you hace see part one in stephan's classroom repo
+*  inheritance part two, you can see part one in [stephan's classroom repo](https://github.com/stefan50/classroom/blob/master/inheritance.cpp)
 
+## 30.11
 
 
