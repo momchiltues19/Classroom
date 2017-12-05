@@ -63,7 +63,7 @@ public:
 	
 	void draw() const
 	{
-		cout << "R(" << ul_ << "; " << br_ << ")" << endl;
+		cout << "Rectan(" << ul_ << "; " << br_ << ")" << endl;
 	}
 };
 
