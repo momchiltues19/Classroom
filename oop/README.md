@@ -68,3 +68,7 @@ int main()
 * point.o, circle.o, main.o - .o stands for output, we use it to name the executables for the programs we want to compile
 * main - here we call the ".o"s and compile them, in this case with the "shapes" as the name of the executable 
 * clean - remove the executables
+
+### Defining lists
+list<Employee> e; //doesn't work that well, you can't use Manager
+list<Employee*> e2; //works fine
