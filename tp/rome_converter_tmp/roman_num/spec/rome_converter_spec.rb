@@ -5,7 +5,7 @@ RSpec.describe RomeConverter do
 		context "when executed " do
 			it "converts decimal number to roman" do
 				for i in 1..4000 
-					expect(RomeConverter.to_dec(RomeConverter.to_rome(i)).to eql i				
+					expect(RomeConverter.to_dec(RomeConverter.to_rome(i))).to eql i				
 				end
 			end
 			it "makes 1231 into MCCXXXI" do
