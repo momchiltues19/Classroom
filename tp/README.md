@@ -142,3 +142,25 @@ P1									P1
 * Make ruby file - Caesar
 * Test with RSpec
 * Make Caesar work (there is a gem)
+
+## 6.12
+* Check prev hw, get new one (EZ)
+### In Class
+* `rspec` - we exec all the specs in spec
+* `rspec *file name*` - we exec the specified spec
+* `rspec *file name* --format d` - shows the tests instead of dots
+
+1. `let - let(:converter) {RomeConverter.new}` - converter is created in do end and destroyed with at the end
+
+```ruby
+let(:converter) do
+	#some code
+	ImprovedRomeConverter.new
+end
+```
+
+2. new - makes new object
+	* Use it as less as possible
+
+
+### Homework
