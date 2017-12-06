@@ -158,9 +158,23 @@ let(:converter) do
 	ImprovedRomeConverter.new
 end
 ```
-
 2. new - makes new object
 	* Use it as less as possible
 
-
-### Homework
+* describe vs context - context shows a diffrent context, describe shows the behaviour we expect
+* you can use normal ruby code in tests, but that's not good practise as you then have to test the test and that causes infinite recursion
+* `describe '#to_rome' do` - it describes a method, but Kiko does not likey it
+### Homework(aka некст таим)
+* RSA - class
+	* initializer(public,private)
+	* encrypt(m) -> c
+	* decrypt(c) -> m
+	* key()
+* RSA_spec
+### [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+* Asymetric description
+* public and private keys
+* person one uses person two's public key to send a message
+* p2 gets the crypted message and can only use the his private key to decrypt it
+* keys are very big (≈2^100) (alt + 240 - ≡ ; alt + 247 - ≈ ) 
+* 
