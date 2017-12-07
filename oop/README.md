@@ -42,6 +42,10 @@
 
 ## 5.12
 * virtual method aka the thing we using in [shape.cpp](https://github.com/momchiltues19/Classroom/master/oop/shape.cpp)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 14f33ad07a3c05fbcbf83b204e67a0bb0fb31821
 ```C++
 class Shape
 {
