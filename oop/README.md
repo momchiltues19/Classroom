@@ -42,15 +42,14 @@
 
 ## 5.12
 * virtual method aka the thing we using in [shape.cpp](https://github.com/momchiltues19/Classroom/master/oop/shape.cpp)
-
-``````
-Class Shape
+```C++
+class Shape
 {
 	//print(); <- if it is not virtual, we always call it, not it's redefinition 	
 	virtual print() = 0;
 };
 
-Class Circle : public Shape
+class Circle : public Shape
 {
 	print();
 };
@@ -62,13 +61,18 @@ int main()
 	list<Shape*>.shapes; 
 	//Circle& c = Shape(); <- Wrong, because Circle can have things that Shape doesn't 
 }
-``````
+```
 ### Makefile 
 * all - typically we use this to call all of the things we want to do(naming convention; not pre-defined)
 * point.o, circle.o, main.o - .o stands for output, we use it to name the executables for the programs we want to compile
 * main - here we call the ".o"s and compile them, in this case with the "shapes" as the name of the executable 
 * clean - remove the executables
-
 ### Defining lists
 list<Employee> e; //doesn't work that well, you can't use Manager
 list<Employee*> e2; //works fine
+
+## 7.12 
+* makaroni is not a good name for any variable
+* "На тия две верно решени задачи, какво повече мога да напиша, от две"
+* grading is not clear at all
+### Postfix calculator
