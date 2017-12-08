@@ -17,9 +17,7 @@
 ##### TUESDAY (5.12)
 ##### WEDNESDAY (6.12)
 ##### THURSDAY (7.12)
-### FRIDAY (8.12)
-* YOU HAVE KArch
-* BEL
+##### FRIDAY (8.12)
 ##### SATURDAY (9.12)
 ### SUNDAY (10.12)
 * TP-Sasho - somewhere in [this link](https://docs.google.com/document/d/1O6IZL2WG_QNWa7mj1lk39I4w42kR3-qcAL6-TT7WNwM/edit)
