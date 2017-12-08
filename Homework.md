@@ -1,5 +1,3 @@
-# MAKE THIS PRETTIER WITH [THIS](https://github.com/jsmecham/CalendarView) or [THIS](https://github.com/mattgemmell/Calendar/blob/master/README.markdown)
-
 ## Left from before
 ### TP
 * Task 1 aka checking homework
