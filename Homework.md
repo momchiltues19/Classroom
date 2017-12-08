@@ -18,12 +18,14 @@
 ##### WEDNESDAY (6.12)
 ##### THURSDAY (7.12)
 ##### FRIDAY (8.12)
-##### SATURDAY (9.12)
+### SATURDAY (9.12)
+* Start OS probably
 ### SUNDAY (10.12)
 * TP-Sasho - somewhere in [this link](https://docs.google.com/document/d/1O6IZL2WG_QNWa7mj1lk39I4w42kR3-qcAL6-TT7WNwM/edit)
 
-## Week 11.12 - 17.12
+## Week 11.12 - 17.12 (short)
 ### MONDAY (11.12)
+* History test 
 * CISCO - first day
 ### TUESDAY (12.12)
 * TP - Rspec
@@ -37,12 +39,12 @@
 ##### SUNDAY(17.12)
 
 
-## Week 18.12 - 24.12
+## Week 18.12 - 24.12 (long)
 ### MONDAY (18.12) 
 * **OS TERM TEST**
 ### TUESDAY (19.12)
 * **BULGARIAN TERM TEST**
-* OOP - BIG TEST
+* **OOP - BIG TEST**
 ##### WEDNESDAY (20.12)
 ##### THURSDAY (21.12)
 ##### FRIDAY (22.12)
