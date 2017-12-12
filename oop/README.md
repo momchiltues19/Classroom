@@ -42,10 +42,6 @@
 
 ## 5.12
 * virtual method aka the thing we using in [shape.cpp](https://github.com/momchiltues19/Classroom/master/oop/shape.cpp)
-<<<<<<< HEAD
-=======
-
->>>>>>> 14f33ad07a3c05fbcbf83b204e67a0bb0fb31821
 ```C++
 class Shape
 {
@@ -80,3 +76,20 @@ list<Employee*> e2; //works fine
 * "На тия две верно решени задачи, какво повече мога да напиша, от две"
 * grading is not clear at all
 ### Postfix calculator
+
+## 12.12
+* inline examples ([more here](https://github.com/momchiltues19/Classroom/blob/master/oop/nested_and_inline.cpp))
+```C++
+class Calc
+{
+	//...
+	void run();
+	//...
+};
+//inline void Calc::run() {}
+void Calc::run()
+{
+	//...
+}
+```
+
