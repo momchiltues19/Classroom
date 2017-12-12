@@ -177,4 +177,6 @@ end
 * person one uses person two's public key to send a message
 * p2 gets the crypted message and can only use the his private key to decrypt it
 * keys are very big (≈2^100) (alt + 240 - ≡ ; alt + 247 - ≈ ) 
-* 
+
+## 11.12
+* Homework remarks
