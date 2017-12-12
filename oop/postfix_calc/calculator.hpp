@@ -24,7 +24,7 @@ public:
 	bool empty() const;
 	double pop();
 
-	void run(std::istream& in);
+	void run(std::istream& in, std::ostream& out);
 };
 
 #endif

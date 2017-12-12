@@ -6,9 +6,13 @@
 class Operation
 {
 	std::string name_;
+
+protected:
+	Calculator& calculator_;
+
 public:
-	Operation(const std::string& name)
-	: name_(name) {}
+	Operation(Calculator& calculator, const std::string& name)
+	: calculator_(calculator), name_(name) {}
 
 	const std::string& get_name() const 
 	{

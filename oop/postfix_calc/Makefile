@@ -1,13 +1,13 @@
-all: main
+all: postfix
 
-point.o: point.cpp
+calculator.o: calculator.cpp
 
-circle.o: circle.cpp
+negate.o: negate.cpp
 
-main.o: main.cpp
+postfix.o: postfix.cpp
 
-main: point.o circle.o main.o
-	g++ -o shapes point.o circle.o main.o
+postfix: calculator.o postfix.o negate.o
+	g++ -o postfix calculator.o postfix.o negate.o
 
 clean: 
-	rm -f *.o shapes
+	rm -f *.o postfix
