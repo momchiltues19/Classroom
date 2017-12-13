@@ -1,0 +1,7 @@
+GET 	/. 						#index								//DATABASE
+POST	/initialize?name		initialize#create					id|n|e|d|encrypted
+GET 	/encrypt/			 	encrypt#new
+POST 	/encrypt/:id?message 	encrypt#create
+GET 	/decrypt/new 			decrypt#new
+POST 	/decrypt        		decrypt#create
+GET     /n?id           		n#show

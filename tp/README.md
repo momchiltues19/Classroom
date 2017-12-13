@@ -146,6 +146,7 @@ P1									P1
 ## 6.12
 * Check prev hw, get new one (EZ)
 ### In Class
+* Checking homework
 * `rspec` - we exec all the specs in spec
 * `rspec *file name*` - we exec the specified spec
 * `rspec *file name* --format d` - shows the tests instead of dots
@@ -164,7 +165,7 @@ end
 * describe vs context - context shows a diffrent context, describe shows the behaviour we expect
 * you can use normal ruby code in tests, but that's not good practise as you then have to test the test and that causes infinite recursion
 * `describe '#to_rome' do` - it describes a method, but Kiko does not likey it
-### Homework(aka некст таим)
+### Homework(aka некст тайм)
 * RSA - class
 	* initializer(public,private)
 	* encrypt(m) -> c
@@ -181,3 +182,58 @@ end
 ## 11.12
 * Homework remarks
 * More time for hw
+
+## 13.12
+### In Class
+* Checking homework
+```ruby
+class RSA
+	self.new_key
+	n
+	e
+	d
+end
+
+test = RSA.new(1,2,3)
+```
+* Running new makes an object (nothing new here)
+	* calling for n would result in us getting 1, so the functions depend on the object
+	* new_key does not depend on the object, meaning it should be static aka self
+* Every object has functions and data
+	* polymorphism -> static stops it, so it is not THAT good
+* When encypting, we get a very big num that cannot be a char
+	1. add to string and add something between them
+	2. "You are not ready yet"
+### Homework(фор некст тайм)
+```ruby
+class RSA
+	initialize
+	n
+	e
+	d
+	new_key
+	encrypt
+	decrypt
+end
+```
+* test file - which method(GET; POST; PUT; DELETE) 
+	* POST url -> /new
+	* GET /n -> /n/id
+```
+POST	/rsas - new_key								returns id
+			 ?n = 1 & d = 4 & e = 5 - initialized
+GET		/rsas/:id?values = public
+						   private
+						   all
+POST	/rsas/:id/enc_messages?m = ...				returns id2
+GET		/rsas/:id/enc_messages/:id2
+POST	/rsas/:id/dec_messages?m
+							   m_d = id2
+```
+* 3 controllers
+	*rsas
+	*enc_messages
+	*dec_messages
+* RSPEC for controller(hopefully not for next time, probably not)
+* Code coverage - 85% of the code works
+* JANUARY - simple graphic interface for stuff done on JS... ;;;;;;;;;;;;

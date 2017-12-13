@@ -1,0 +1,7 @@
+GET		/.							#index
+POST	/keys?name				message#create
+GET		/keys/:id				message#new
+POST	/keys/:id/encrypt?s		message#create
+GET		/keys/:id/encrypt/:id2	message#new
+PPOST	/keys/:id/decrypt?s		message#create
+GET		/keys/:id/decrypt/:id2	message#new
