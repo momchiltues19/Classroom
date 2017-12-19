@@ -1,13 +1,25 @@
 all: postfix
 
-calculator.o: calculator.cpp
+calculator.o: calculator.cc calculator.hh
 
-negate.o: negate.cpp
+composite.o: composite.cc composite.hh operation.hh calculator.hh
 
-postfix.o: postfix.cpp
+literal.o: literal.cc literal.hh operation.hh calculator.hh
 
-postfix: calculator.o postfix.o negate.o
-	g++ -o postfix calculator.o postfix.o negate.o
+unary.o: unary.cc
 
-clean: 
-	rm -f *.o postfix
+negate.o: negate.cc
+
+power.o: power.cc
+
+binary.o: binary.cc
+
+plus.o: plus.cc
+
+postfix.o: postfix.cc
+
+postfix: calculator.o postfix.o negate.o power.o unary.o binary.o plus.o composite.o literal.o
+	g++ -o postfix calculator.o postfix.o negate.o power.o unary.o binary.o plus.o composite.o literal.o
+
+clean:
+	rm -fr *.o postfix
