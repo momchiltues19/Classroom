@@ -237,3 +237,54 @@ POST	/rsas/:id/dec_messages?m
 * RSPEC for controller(hopefully not for next time, probably not)
 * Code coverage - 85% of the code works
 * JANUARY - simple graphic interface for stuff done on JS... ;;;;;;;;;;;;
+
+## 20.12
+### In Class 
+* Checking homework
+Question 1. url (Naichev)
+	```
+	()POST /rsas/:id/encrypt.
+	vs
+	[]POST /encrypt
+	
+	()GET /rsas/:id/encrypt/:id2
+	vs
+	[]GET /encrypt/:id
+	```
+	* [] - kvadratche
+	* () - kruchke
+	* Which is better?
+		* Depends on the software requirenments and the client(in our case - the teacher)
+		* You should keep it consistant 
+Question 2. Pavlove asked for more time (we got it, _relate to first bullet in Homework_)
+Question 3. Magi asked for more code in class
+	* I am not sure if that is a good idea
+Question 4. _Relate to second bullet in Homework_ (Boyan)
+Question 5. Markov asked sth
+Question 6. Alex asked about keys, Mitov couldn't give a straight answer
+#### [SimpleCov](https://github.com/colszowka/simplecov)
+* Checks line coverage
+* rspec --init
+* For Rspec, for sth else, for cucumber
+### Homework(фор некст тайм which is 10.01.2018)
+* The old homework + the rspecs (about 10)(maybe, I'm scared cause Mitov is going crazy; __new triger word unclocked - deadline__
+* Look for RSAs in OpenSSL documentation because the thing in wikipedia is stupid
+* Rspec that test controllers aka rspec for rails ('o') 
+#### STEP-BY-STEP TUTORIAL 
+1. Copy thing from Installation from [here](https://github.com/rspec/rspec-rails) and add it to the Gemfile
+   run bundle insatall
+2. Now write a spec for a controller by making a spec dir in the main place of the rails project
+   mkdir spec
+   mkdir spec/controllers
+   mkdir spec/controllers/*controller name*_spec.rb
+3. Write your rspec code :)
+   Example:
+```ruby
+RSpec.describe *controller name* do
+	it "returns message" do
+
+	end
+end 
+```
+4. rails generate rspec:install
+5. bundle exec rspec
