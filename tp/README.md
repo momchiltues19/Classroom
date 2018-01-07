@@ -293,5 +293,5 @@ end
 2. Breathe some more
 3. Open [YouTube](https://www.youtube.com)
 4. Search for "JavaScript in one hour"
-5. Watch quietly and don't think to much
-6. You now know JavaScript (apperantly)
+5. Watch quietly and don't think too much
+6. You now know JavaScript (apparently)
