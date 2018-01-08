@@ -99,10 +99,14 @@ void Calc::run()
 * postfix...again...
 
 ## 19.12
-### Macro
 * Makefiles are important
 ```
 example.o: example.cc example.hh inherit.hh
 example.o: example.cc 
 ```
 * Makefiles make when there is a change in the said files, so it is best to also include headers
+### Macro
+
+## 4.01
+* Talking about things we don't know
+
