@@ -295,6 +295,7 @@ end
 4. Search for "JavaScript in one hour"
 5. Watch quietly and don't think too much
 6. You now know JavaScript (apparently)
+<<<<<<< HEAD
 
 ## 08.01
 ### In Class
@@ -375,3 +376,5 @@ end
 * Never only do one thing (so like backend, user inteface, design and so on should be done at the same time, little by little)
 * Sell your idea and lie about it if you can to get people pumped, get money, and then do it aka the Patreon model of business
 * Relax, Mitov will help (it can be embeded, this is where I die)
+=======
+>>>>>>> ff3144375bc4fed3ad30b09ccbf9fe87e8022837
