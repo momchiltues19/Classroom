@@ -302,6 +302,22 @@ end
 * We start of with no wifi drama
 ### Homework(hopefuly there is none, we have enough as it is)
 
+## 10.01
+### In Class
+* Starting rsa from scratch [here](https://github.com/momchiltues19/Classroom/tree/master/tp/rsas)
+#### STEP BY STEP
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9.
+### Homework
+* RSpec, I guess, you have a step by step and also an already made project (hopefully 2 of them)
+
 # Project information
 * Have an idea
 * Teams of two people (or 3 if uncountable)
@@ -375,6 +391,4 @@ end
 ## General tips
 * Never only do one thing (so like backend, user inteface, design and so on should be done at the same time, little by little)
 * Sell your idea and lie about it if you can to get people pumped, get money, and then do it aka the Patreon model of business
-* Relax, Mitov will help (it can be embeded, this is where I die)
-=======
->>>>>>> ff3144375bc4fed3ad30b09ccbf9fe87e8022837
+* Relax, Mitov will help (it can be embeded, that gives me an idea)
