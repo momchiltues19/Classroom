@@ -96,6 +96,7 @@ What to commit? Commit in the same github repo and deploy the same heroku app
 * man 2 pipe 
 * Inter class comunication == fork
 * DRAWING TIME:
+```
 			P2
 			|
 P1----W==========R----P4
@@ -109,6 +110,7 @@ P2	-								P2
 	 |>--W=======R--<|
 	/									\
 P1									P1
+```
 * mkfifo
 
 ## 20.11

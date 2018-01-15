@@ -110,3 +110,20 @@ example.o: example.cc
 ## 4.01
 * Talking about things we don't know
 
+## 11.01
+### QUEENS
+```
+QUEENS 
+~ ~ 1 ~ | 1 ~ ~ ~ ~
+1 ~ ~ ~ | ~ ~ ~ 1 ~
+~ ~ ~ 1 | ~ 1 ~ ~ ~
+~ 1 ~ ~ | ~ ~ ~ ~ 1 
+_______ | ~ ~ 1 ~ ~
+~ 1 ~ ~ |__________
+~ ~ ~ 1 | 0 0 0 0 0
+1 ~ ~ ~ | 0 0 0 0 0 
+~ ~ 1 ~ | 0 0 0 0 0
+		| 0 0 0 0 0
+		| 0 0 0 0 0
+you have to put an A number of queens in an AxA grid, so that none of them beat one another
+```
