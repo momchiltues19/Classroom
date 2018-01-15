@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <script type="application/javascript">
+	var sun = new Image();
+	var moon = new Image();
+	var earth = new Image();
+	function init() {
+	  sun.src = 'https://mdn.mozillademos.org/files/1456/Canvas_sun.png';
+	  moon.src = 'https://mdn.mozillademos.org/files/1443/Canvas_moon.png';
+	  earth.src = 'https://mdn.mozillademos.org/files/1429/Canvas_earth.png';
+	  window.requestAnimationFrame(draw);
+	}
+
+	function draw() {
+	  var ctx = document.getElementById('canvas').getContext('2d');
+
+	  ctx.globalCompositeOperation = 'destination-over';
+	  ctx.clearRect(0, 0, 1000, 1000); // clear canvas
+
+	  ctx.save();
+	  ctx.translate(400, 300);
+
+	  // Earth
+	  var time = new Date();
+	  ctx.rotate(((10 * Math.PI) / 60) * time.getSeconds() + ((10 * Math.PI) / 60000) * time.getMilliseconds());
+	  ctx.translate(5, 0);
+	  ctx.beginPath();
+	  ctx.arc(100,100,15,0,2*Math.PI);
+	  ctx.fillStyle = 'rgb(0, 0, 200)';	
+	  ctx.fill();	
+
+	  ctx.restore();
+
+	  window.requestAnimationFrame(draw);
+	}
+
+	init();
+  </script>
+ </head>
+ <body onload="draw();">
+   <canvas id="canvas" width="1000" height="1000"></canvas>
+ </body>
+</html>

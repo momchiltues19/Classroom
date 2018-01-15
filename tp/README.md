@@ -311,6 +311,18 @@ end
 ### Homework
 * RSpec, I guess, you have a step by step and also an already made project (hopefully 2 of them)
 
+## 15.01
+### In Class
+* talking about JavaScript
+* make a game - you have a board, a ball on the board, you have x secs to press it, if you do, you get a point and the ball gets 5% faster
+* solve a quadratic equasion and draw the board
+* vector graphic editor - click - draw a triangle(or square), circle and line, then have a way to move/edit them
+#### [Canvas tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
+* example.html
+
+### Homework
+* just try to make it so that you can click the circle, make it disappear and get a new (faster, maybe) circle
+----------------------------------------------------------------------------------------------------------------
 # Project information
 * Have an idea
 * Teams of two people (or 3 if uncountable)
