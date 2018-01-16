@@ -120,10 +120,13 @@ QUEENS
 ~ 1 ~ ~ | ~ ~ ~ ~ 1 
 _______ | ~ ~ 1 ~ ~
 ~ 1 ~ ~ |__________
-~ ~ ~ 1 | 0 0 0 0 0
-1 ~ ~ ~ | 0 0 0 0 0 
-~ ~ 1 ~ | 0 0 0 0 0
-		| 0 0 0 0 0
-		| 0 0 0 0 0
+~ ~ ~ 1 | 0 0 0 0 0 0
+1 ~ ~ ~ | 0 0 0 0 0 0
+~ ~ 1 ~ | 0 0 0 0 0 0
+		| 0 0 0 0 0 0
+		| 0 0 0 0 0 0
+		| 0 0 0 0 0 0
 you have to put an A number of queens in an AxA grid, so that none of them beat one another
 ```
+
+## 16.01
