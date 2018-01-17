@@ -319,9 +319,14 @@ end
 * vector graphic editor - click - draw a triangle(or square), circle and line, then have a way to move/edit them
 #### [Canvas tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
 * example.html
-
 ### Homework
 * just try to make it so that you can click the circle, make it disappear and get a new (faster, maybe) circle
+
+## 17.01
+### In Class
+* finish ball
+### Homework
+
 ----------------------------------------------------------------------------------------------------------------
 # Project information
 * Have an idea
