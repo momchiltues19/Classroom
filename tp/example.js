@@ -12,9 +12,11 @@ function work()
 	var canvas = document.getElementById('canvas');
 	var ctx = canvas.getContext('2d');
 	var raf;
+	var points = 0;
+	var lifeCount = 3;
 	var ball = {
-	  x: 100,
-	  y: 100,
+	  x: Math.floor(Math.random() * (canvas.width-200)) + 200,
+	  y: Math.floor(Math.random() * (canvas.height-200)) + 200,
 	  vx: 5,
 	  vy: 5,
 	  radius: 100,
@@ -55,14 +57,26 @@ function work()
 	});
 
 	canvas.addEventListener('click', function(e) {			
-		document.getElementById("demo").innerHTML = ball.x - ball.radius
-;	
+		
 		if((Math.abs(ball.x - e.x) < ball.radius) && (Math.abs(ball.y - e.y) < ball.radius))    
 		{
+			points++;
+			document.getElementById("score").innerHTML = points;
 			ball.color = getRandomColor();
 			ball.radius /= 1.2;
-			points++;
-		}	
+			ball.vx *= 1.1;
+			ball.vy *= 1.1
+		}
+		else
+		{
+			lifeCount--;
+			document.getElementById("lives").innerHTML = lifeCount;
+			if(lifeCount==0) 
+			{
+				location.reload();
+				alert("You Lose");
+			}
+		}
 	});
 
 
