@@ -136,5 +136,6 @@ you have to put an A number of queens in an AxA grid, so that none of them beat 
 ### NEW HOMEWORK - SVG Turtle && Serpinski Curve in moodle
 * [Book with things](https://en.wikipedia.org/wiki/Algorithms_%2B_Data_Structures_%3D_Programs) Page 146 and 149
 * Calibre
+* [same book pdf](http://www.ethoberon.ethz.ch/WirthPubl/AD.pdf) Page 90
 ### Maze - continue
 #### BONUS HW - find your way trough the maze
