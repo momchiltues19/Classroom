@@ -61,7 +61,7 @@ int main()
 	list<Shape*>.shapes; 
 	//Circle& c = Shape(); <- Wrong, because Circle can have things that Shape doesn't 
 }
-```
+a```
 ### Makefile 
 * all - typically we use this to call all of the things we want to do(naming convention; not pre-defined)
 * point.o, circle.o, main.o - .o stands for output, we use it to name the executables for the programs we want to compile
@@ -70,9 +70,9 @@ int main()
 ### Defining lists
 list<Employee> e; //doesn't work that well, you can't use Manager
 list<Employee*> e2; //works fine
-
-## 7.12 
-* makaroni is not a good name for any variable
+#
+3## 7.12 
+ * makaroni is not a good name for any variable
 * "На тия две верно решени задачи, какво повече мога да напиша, от две"
 * grading is not clear at all
 ### Postfix calculator
@@ -80,8 +80,8 @@ list<Employee*> e2; //works fine
 ## 12.12
 * inline examples ([more here](https://github.com/momchiltues19/Classroom/blob/master/oop/nested_and_inline.cpp))
 ```C++
-class Calc
-{
+#class Calc
+#{
 	//...
 	void run();
 	//...
@@ -130,3 +130,11 @@ you have to put an A number of queens in an AxA grid, so that none of them beat 
 ```
 
 ## 16.01
+### Maze
+
+## 8.02
+### NEW HOMEWORK - SVG Turtle && Serpinski Curve in moodle
+* [Book with things](https://en.wikipedia.org/wiki/Algorithms_%2B_Data_Structures_%3D_Programs) Page 146 and 149
+* Calibre
+### Maze - continue
+#### BONUS HW - find your way trough the maze
