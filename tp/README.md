@@ -248,7 +248,7 @@ Question 1. url (Naichev)
 	()POST /rsas/:id/encrypt.
 	vs
 	[]POST /encrypt
-	
+
 	()GET /rsas/:id/encrypt/:id2
 	vs
 	[]GET /encrypt/:id
@@ -264,14 +264,17 @@ Question 3. Magi asked for more code in class
 Question 4. _Relate to second bullet in Homework_ (Boyan)
 Question 5. Markov asked sth
 Question 6. Alex asked about keys, Mitov couldn't give a straight answer
+
 #### [SimpleCov](https://github.com/colszowka/simplecov)
 * Checks line coverage
 * rspec --init
 * For Rspec, for sth else, for cucumber
+
 ### Homework(фор некст тайм which is 10.01.2018)
 * The old homework + the rspecs (about 10)(maybe, I'm scared cause Mitov is going crazy; __new triger word unclocked - deadline__
 * Look for RSAs in OpenSSL documentation because the thing in wikipedia is stupid
 * Rspec that test controllers aka rspec for rails ('o') 
+
 #### STEP-BY-STEP TUTORIAL 
 1. Copy thing from Installation from [here](https://github.com/rspec/rspec-rails) and add it to the Gemfile
    run bundle insatall
@@ -325,6 +328,12 @@ end
 ## 17.01
 ### In Class
 * finish ball
+### Homework
+
+## 20.02
+### In Class
+* Redoing the old homeworks
+#### Making a Rails application
 ### Homework
 
 ----------------------------------------------------------------------------------------------------------------
