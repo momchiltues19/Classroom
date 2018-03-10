@@ -46,7 +46,7 @@ int main(int argc, char* argv[])
     pthread_t threads[100];
     int i = 0;
     int miners = 1, traders = 1;
-	//int max_miners = 1, max_traders = 1;
+    //int max_miners = 1, max_traders = 1;
     //if(argc == 3)
     //{
     //    max_miners = atoi(argv[1]);
@@ -55,10 +55,11 @@ int main(int argc, char* argv[])
 
     pthread_create(&threads[0], NULL, mine, (void *)miners);
     pthread_join(threads[0], NULL);
+
     pthread_create(&threads[1], NULL, trade, (void *)traders);
+    pthread_join(threads[1], NULL);
 
     pthread_mutex_destroy(&mutex);
-    pthread_join(threads[1], NULL);
     printf("Gold: %d\n", gold);
     pthread_exit(NULL);
 	
