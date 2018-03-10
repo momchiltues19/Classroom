@@ -7,7 +7,7 @@
 #include <unistd.h>
 
 int gold = 0;
-pthread_mutex_t mutex;
+pthread_mutex_t mutex; 
 
 void* mine(void* person)
 {
@@ -34,8 +34,8 @@ void* trade(void* person)
             pthread_mutex_lock(&mutex);
             gold -= 10;
             pthread_mutex_unlock(&mutex);
+            printf("Trader %d sold 10 gold\n", (int)person);
         }
-        printf("Trader %d sold 10 gold\n", (int)person);
         sleep(2);
     }
 }
@@ -57,6 +57,7 @@ int main(/*int argc, char* argv[]*/)
     pthread_create(&threads[1], NULL, trade, (void *)traders);
 
 	pthread_mutex_destroy(&mutex);
+    pthread_join(threads[0], NULL);
     pthread_join(threads[1], NULL);
     printf("Gold: %d\n", gold);
 	pthread_exit(NULL);
