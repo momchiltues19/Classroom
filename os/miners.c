@@ -42,9 +42,9 @@ void* trade(void* person)
 
 int main(int argc, char* argv[])
 {
-	pthread_mutex_init(&mutex, NULL); 	
-	pthread_t threads[100];
-	int i = 0;
+    pthread_mutex_init(&mutex, NULL); 	
+    pthread_t threads[100];
+    int i = 0;
     int miners = 1, traders = 1;
 	//int max_miners = 1, max_traders = 1;
     //if(argc == 3)
@@ -57,9 +57,9 @@ int main(int argc, char* argv[])
     pthread_join(threads[0], NULL);
     pthread_create(&threads[1], NULL, trade, (void *)traders);
 
-	pthread_mutex_destroy(&mutex);
+    pthread_mutex_destroy(&mutex);
     pthread_join(threads[1], NULL);
     printf("Gold: %d\n", gold);
-	pthread_exit(NULL);
+    pthread_exit(NULL);
 	
 }
