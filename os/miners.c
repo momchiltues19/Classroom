@@ -50,7 +50,7 @@ int main(int argc, char* argv[])
     //if(argc == 3)
     //{
     //    max_miners = atoi(argv[1]);
-	//    max_traders = atoi(argv[2]);
+    //    max_traders = atoi(argv[2]);
     //}
 
     pthread_create(&threads[0], NULL, mine, (void *)miners);
