@@ -341,7 +341,7 @@ end
 * Redoing the old homeworks for the 5232nd time
 #### Deprecate
 * Say that you have paused/stopped future development on a feature
-### Soft deprecation
+##### Soft deprecation
 * Say that you will deprecate something in the future
 ### Homework - do half of the game...
 
