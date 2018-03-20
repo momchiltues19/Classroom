@@ -336,6 +336,15 @@ end
 #### Making a Rails application
 ### Homework
 
+## 20.03
+### In Class
+* Redoing the old homeworks for the 5232nd time
+#### Deprecate
+* Say that you have paused/stopped future development on a feature
+### Soft deprecation
+* Say that you will deprecate something in the future
+### Homework - do half of the game...
+
 ----------------------------------------------------------------------------------------------------------------
 # Project information
 * Have an idea
@@ -396,8 +405,10 @@ end
 * Role-play a business - money managment, time managment, thinking about the konkurencia
 * _Prioritize_ - 1 has the least amount of tasks, 2 has the most amount of tasks, 3 is extra stuff you won't have time for but would still be good to implemtent in the future so should be taken into consideration when doing the tasks in 1 and 2
 * Split the work, just don't think that if you have 6 1 tasks, each of you has to do 3 
+#### Trello
 
 ### III. MARCH
+* Half of the project has to be done, lost of commits (which for now we don't really have)
 
 ### IV. APRIL
 
