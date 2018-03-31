@@ -11,17 +11,19 @@ public class CompositeOperation extends AbstractOperation {
 	
 	public CompositeOperation(Calculator calculator, String token) {
 		super(calculator, token);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public void calculate() {
-		// TODO Auto-generated method stub
+		for(Operation op: operations)
+		{
+			op.calculate();
+		}
 		
 	}
 	
 	public void addOperation(Operation op) {
-		// TODO:
+		operations.add(op);
 	}
 
 }

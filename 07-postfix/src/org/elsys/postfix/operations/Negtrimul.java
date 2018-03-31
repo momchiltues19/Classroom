@@ -5,7 +5,7 @@ import org.elsys.postfix.Calculator;
 public class Negtrimul extends TernaryOperation {
 
 	public Negtrimul(Calculator calculator) {
-		super(calculator, "*-*");
+		super(calculator, "\\*-\\*");
 	}
 	
 	@Override

@@ -16,13 +16,12 @@ void* buyer(void* person)
 		if(!pthread_mutex_trylock(&mutex[i]))
 		{
 			printf("Buyer %d takes car %d.\n", person, i);
-			sleep(5);
+			//sleep(5);
 			printf("Buyer %d returns car %d.\n", person, i);
 			pthread_mutex_unlock(&mutex[i]);	
 			break;
 		}
 	}
-	pthread_exit(0);
 }
 
 int main()
@@ -37,13 +36,8 @@ int main()
 	for(i = 0; i < 20; i++)
 	{
 		pthread_create(&threads[i], NULL, buyer, (void *)(i+1));
-		sleep(1);	
+		//sleep(1);	
 	}	
-
-	for(i = 0; i < 20; i++)
-	{
-		pthread_join(&threads[i], NULL);
-	}
 
 	for(i = 0; i < 5; i++)
 	{
