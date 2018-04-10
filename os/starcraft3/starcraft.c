@@ -47,7 +47,7 @@ void* mine(void* person)
                 sleep(2); //might need something more to be added
                 printf("SCV %d delivered minerals to the Command center\n", number);
                 pthread_mutex_unlock(&block_mutex[i]);    
-                break;
+                //break;
             }
         }
     }
@@ -96,7 +96,7 @@ int main()
                 break;
 
         }
-        if(soldiers == 5) break;
+        if(soldiers == 20) break;
     }
 
     for(i = 0; i < 2; i++)
@@ -104,7 +104,12 @@ int main()
         pthread_mutex_destroy(&block_mutex[i]);
     }
 
-    printf("Map minerals %d, player minerals %d, SCVs %d, Marines %d\n", minerals_in_block[0] + minerals_in_block[1], game_minerals, workers, soldiers);
+    printf("Map minerals 1000, player minerals %d, SCVs %d, Marines %d\n", game_minerals, workers, soldiers);
 
-    exit(0);
+    // for(i = 0; i < 5; i++)
+    // {
+    //     pthread_join(*(threads+i), NULL);
+    // }
+
+    pthread_exit(0);
 }
