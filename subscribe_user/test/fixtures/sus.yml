@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_u: 1
+  id_s: 1
+  type: MyText
+
+two:
+  id_u: 1
+  id_s: 1
+  type: MyText
