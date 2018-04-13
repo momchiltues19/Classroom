@@ -9,21 +9,43 @@
 #include <ncurses.h>
 #include <stdbool.h>
 
-int minerals_in_block[2] = {500, 500};
+int minerals_in_block[1000];
 int game_minerals = 0;
 int soldiers = 0;
-pthread_mutex_t block_mutex[2];
+int block_count = 2;
+pthread_mutex_t block_mutex[1000];
 pthread_mutex_t minerals_mutex;
+pthread_mutex_t block_count_mutex;
 
 void* mine(void* person)
 {
-    bool usable_blocks[2] = {true, true};
+    int block_count_local;
+    pthread_mutex_lock(&block_count_mutex);
+    block_count_local = block_count;
+    pthread_mutex_unlock(&block_count_mutex);
+
+    bool usable_blocks[1000];
+    bool flag = true;
     int i;
     int number = (int) person;
-    //printf("worker %d was created\n", number);
-    while(usable_blocks[0] || usable_blocks[1])
+
+    for(i = 0; i < block_count_local; i++)
     {
-        for(i = 0; i < 2; i++)
+        usable_blocks[i] = true;
+    }
+    //printf("worker %d was created\n", number);
+    while(flag)
+    {
+        for(i = 0; i < block_count_local; i++)
+        {
+            flag = false;
+            if(usable_blocks[i] == true)
+            {
+                flag = true;
+                break;
+            }
+        }
+        for(i = 0; i < block_count_local; i++)
         {
             sleep(3);
             if(minerals_in_block[i] == 0 && usable_blocks[i]) usable_blocks[i] = false;
@@ -53,19 +75,33 @@ void* mine(void* person)
     }
 }
 
-int main()
+int main(int argc, char* argv[])
 {
 
     int i;
     int workers = 5;
-    for(i = 0; i < 2; i++)
+    int block_count_local = 2;
+    if(argc == 2)
     {
-        pthread_mutex_init(&block_mutex[i], NULL);
+        pthread_mutex_lock(&block_count_mutex);
+        block_count = atoi(argv[1]);
+        block_count_local = block_count;
+        pthread_mutex_unlock(&block_count_mutex);
     }
 
     pthread_t *threads = malloc(sizeof(pthread_t)*workers);
 
-    for(i = 0; i < 5; i++)
+    for(i = 0; i < block_count_local; i++)
+    {
+        pthread_mutex_init(&block_mutex[i], NULL);
+    }
+
+    for(i = 0; i < block_count_local; i++)
+    {
+        minerals_in_block[i] = 500;
+    }
+
+    for(i = 0; i < workers; i++)
     {
         pthread_create(threads + i, NULL, mine, (void*) i);
         //sleep(1);   
@@ -99,7 +135,7 @@ int main()
         if(soldiers == 20) break;
     }
 
-    for(i = 0; i < 2; i++)
+    for(i = 0; i < block_count_local; i++)
     {
         pthread_mutex_destroy(&block_mutex[i]);
     }
@@ -111,5 +147,5 @@ int main()
     //     pthread_join(*(threads+i), NULL);
     // }
 
-    pthread_exit(0);
+    exit(0); //or exit(0);
 }
