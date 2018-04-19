@@ -345,6 +345,55 @@ end
 * Say that you will deprecate something in the future
 ### Homework - do half of the game...
 
+## 18.04
+### Last Time
+```Ruby
+#User
+	#- name
+	has_many :sub_users
+	has_many :subs, through: :subs_users
+
+#Subs
+	#- price
+	has_many :sub_users
+	has_many :users, through: :subs_users
+
+#SubUser
+	#- role - teacher/student
+	belongs_to :user
+	belongs_to :sub
+	
+	#if price < 10
+	#	teacher - < 2
+	#	student - < 10
+```
+```SQL
+	id| user_id| sub_id| role
+	-------------------------------
+	1	1	1	1
+	2	1	2	2
+notgood	3	1	1	1,2
+1. User
+2. Sub
+3. 
+```
+### In Class
+* Rails, again, for the 5th week in a roll, Kiko wants to make us kill ourselves
+### Next time(s)
+* 4 times with Ubisoft, every week, once
+* Artistic integtiry
+* Making thing
+* Ships
+* Homework: make asteroids
+* Collisions
+* Homework: Ship upgrade
+* HP
+* Destroying asteroids
+* Character creaton
+* Menu
+## Homework
+* echo echo echo echo
+
 ----------------------------------------------------------------------------------------------------------------
 # Project information
 * Have an idea
