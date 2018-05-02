@@ -139,3 +139,6 @@ you have to put an A number of queens in an AxA grid, so that none of them beat 
 * [same book pdf](http://www.ethoberon.ethz.ch/WirthPubl/AD.pdf) Page 90
 ### Maze - continue
 #### BONUS HW - find your way trough the maze
+
+## 26.04
+* java standard edition oracle tests
