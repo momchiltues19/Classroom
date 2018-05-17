@@ -394,6 +394,21 @@ notgood	3	1	1	1,2
 ## Homework
 * echo echo echo echo
 
+## 8.05
+### MONTH PLAN
+##### Posible React lecture on an uknown date at 17:30 or 12:00
+#### 9.05 - Ubisoft
+#### 15.05 - Mihail
+#### 16.05 - Ubisoft(FINAL lecture)
+#### 23.05 - RoR/Ubisoft(FINAL)
+##### All other days - Rails
+#### 30.05 23:59:59 - Project deadline
+### JUNE - project checking and RoR
+### In Class
+#### Code quality
+* Feature test(10%, 90% - Unity)
+	* Helps with regresiion
+
 ----------------------------------------------------------------------------------------------------------------
 # Project information
 * Have an idea
