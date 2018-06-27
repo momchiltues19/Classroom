@@ -58,7 +58,7 @@ def validates_with_count
         where(manufacture_id: manufacture_id, architecture: architecture).
         where('date BETWEEN ? AND ?', date.beginning_of_month, date.end_of_month).
         count >=3
-      errors.add(:computers, "More the 3 computers with the same architecture in the given month can not be created")
+      errors.add(:computers, "More the 3 comps with the same arch in the given month can't be created")
     end
 end
 ```
