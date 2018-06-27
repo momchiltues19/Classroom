@@ -1,9 +1,21 @@
 #!/bin/bash
 
-git add .
+# $1 - commit
 
-git commit -m shell
+res="`git status | grep "up to date" `"
 
-git pull
+if [ -z "$res" ]; then
+  git pull
+fi
+
+git add . # A_19_Momchil_Todorov
+
+git commit -m $1
+
+res="`git status | grep "up to date" `"
+
+if [ -z "$res" ]; then
+  git pull
+fi
 
 git push
