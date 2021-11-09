@@ -16,5 +16,5 @@ n = p<sub>1</sub>\*m + q<sub>1</sub>
 ## Idea 3
 нещо с матрици
 
-## Idea 4
+## Idea 2.1
 низове
